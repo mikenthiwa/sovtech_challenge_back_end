@@ -1,5 +1,8 @@
+import {Jokes} from "../modules";
+
+
 export const categoryResolver = {
     Query: {
-        categories: () => ['animal', 'career']
+        categories: () => Jokes.getCategories()
     }
 }
