@@ -1,4 +1,3 @@
-import { ApolloServer } from 'apollo-server'
 import dotenv from 'dotenv';
 import application from "./app";
 
