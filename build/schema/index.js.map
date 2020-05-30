@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/schema/index.js"],"names":["categoryTypeDef","jokesTypeDef"],"mappings":";;;;;;;AAAA;;AACA;;eAEe,CACXA,2BADW,EAEXC,mBAFW,C","sourcesContent":["import {categoryTypeDef} from \"./typeDefs/categories\";\nimport {jokesTypeDef} from \"./typeDefs/jokes\";\n\nexport default [\n    categoryTypeDef,\n    jokesTypeDef,\n]\n\n\n\n"],"file":"index.js"}

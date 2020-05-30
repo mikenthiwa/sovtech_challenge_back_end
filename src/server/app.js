@@ -1,14 +1,11 @@
 import express from 'express';
-import cors from 'cors';
-import schema from '../schema';
 import {ApolloServer} from "apollo-server-express";
 import typeDefs from "../schema";
 import resolvers from "../resolvers";
 
 export default () => {
     const app = express();
-    app.use(cors());
-    const server = new ApolloServer({ typeDefs, resolvers});
+    const server = new ApolloServer({ typeDefs, resolvers, playground: true});
     server.applyMiddleware({ app });
     return app
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/schema/typeDefs/categories.js"],"names":["categoryTypeDef"],"mappings":";;;;;;;AAAA;;AAEO,MAAMA,eAAe,GAAG,6BAAI;;;;CAA5B","sourcesContent":["import { gql } from \"apollo-server-express\";\n\nexport const categoryTypeDef = gql`\n    type Query {\n      categories: [String!]  \n    }\n`;"],"file":"categories.js"}
