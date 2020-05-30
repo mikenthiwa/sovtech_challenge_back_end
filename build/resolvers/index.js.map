@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/resolvers/index.js"],"names":["categoryResolver","jokeResolver"],"mappings":";;;;;;;AAAA;;AACA;;eAEe,CACXA,4BADW,EAEXC,mBAFW,C","sourcesContent":["import {categoryResolver} from \"./categories\";\nimport {jokeResolver} from \"./jokes\";\n\nexport default [\n    categoryResolver,\n    jokeResolver\n]"],"file":"index.js"}
